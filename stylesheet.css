@@ -66,7 +66,7 @@ header {
 }
 
 
-/*Bagian top-wrapper*/
+/*Bagian bagian welcome to our team*/
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
@@ -127,39 +127,64 @@ header {
 }
 
 
-/*bagian lesson-wrapper*/
-.lesson-wrapper {
+/*bagian our features*/
+.features-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #d3d3d385;
   text-align: center;
 }
 
-.heading {
+.feature-heading {
   padding-top: 80px;
   padding-bottom: 50px;
   color: #5f5d60;
 }
 
-.heading h2 {
+.feature-heading h2 {
   font-weight: normal;
+  font-size: 72px;
+  color: #313131;
 }
 
-.lesson {
+.feature-heading span{
+  font-weight: bold;
+}
+
+.text-heading{
+  font-size: 30px;
+  padding-top: 36px;
+  padding-bottom: 30px;
+}
+
+.line{
+    border-bottom: 4px solid rgb(34 66 78);
+    width: 10%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.feature {
   float: left;
-  width: 25%;
+  width: 33%;
 }
 
-.lesson-icon {
+.feature-icon {
   position: relative;
 }
 
-.lesson-icon p {
-  position: absolute;
+.feature-icon p {
+/*  position: absolute;
   top: 44%;
   width: 100%;
-  color: white;
+  color: white;*/
+
+  width: 100%;
+  color: #354345;
+  padding-bottom: 40px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .txt-contents {
@@ -167,12 +192,47 @@ header {
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: #000;
+  text-decoration: underline;
 }
 
 
 
-/*bagian message-wrapper*/
+element.style {
+}
+.feature-explore {
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 15%;
+  padding: 10px;
+}
+
+.btn-feature {
+  border: 1px;
+  border-radius: 10px;
+  background-color: #b8c8cb;
+  box-shadow: 0px 5px 0px 0px #485b68;
+  padding: 15px;
+}
+
+.btn-feature a{
+  color: black;
+  padding: 15px;
+}
+
+.btn-feature:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.btn-feature:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+/*bagian bagian meet our team*/
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
@@ -190,6 +250,11 @@ header {
   box-shadow: 0 7px #1a7940;
 }
 
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
 
 /*bagian footer*/
 footer {
