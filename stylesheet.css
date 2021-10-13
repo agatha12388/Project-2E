@@ -201,11 +201,11 @@ footer {
   justify-content: space-around;
 }
 
-img, ul {
+.footer-logo, ul {
   display:block;
 }
 
-img {
+.footer-logo {
   max-width: 110px;
   max-height: 70px;
   padding-top:50px;
@@ -235,7 +235,7 @@ ul.right {
 }
 
 @media  (max-width: 670px) {
-  img {
+  .footer-logo {
     order:-1;
   }
   
