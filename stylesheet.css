@@ -30,49 +30,50 @@ a {
 
 /*Bagian header*/
 header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    position :fixed;
-    top: 0;
-    z-index: 10;
-  }
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 500px;
+  height: 191px;
+  line-height: 80px;
+  margin-top: 17px;
+  padding-left:  105px;
+}
+
+.header-left {
+  float: left;
+  top: 17px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  top: 54px;
   
-  .logo {
-    width: 500px;
-    height: 50px;
-    line-height: 80px;
-    margin-top: 17px;
-    padding-left:  105px;
-  }
-  
-  .header-left {
-    float: left;
-    top: 17px;
-  }
-  
-  .header-right {
-    float: right;
-    margin-right: -25px;
-    top: 54px;
-    
-  }
-  
-  .header-right a {
-    text-decoration:none;
-    line-height: 80px;
-    padding: 0 40px;
-    font-size: 24px;
-    font-weight: bold;
-    color: rgb(12, 12, 12);
-    display: flex;
-    float: left;
-    transition: all 0.5s;
-  }
-   
-  .header-right a:hover {
-    background-color: rgba(228, 38, 25, 0.3);
-  }
+}
+
+.header-right a {
+  text-decoration:none;
+  line-height: 80px;
+  padding: 0 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(12, 12, 12);
+  display: flex;
+  float: left;
+  transition: all 0.5s;
+}
+ 
+.header-right a:hover {
+  background-color: rgba(228, 38, 25, 0.3);
+}
+
 
 
 /*Bagian bagian welcome to our team*/
@@ -109,14 +110,7 @@ header {
   background-color: #239b76;
 }
 
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
 
-.twitter {
-  background-color: #55acee;
-}
 
 .btn {
   padding: 12px 24px;
@@ -254,28 +248,89 @@ element.style {
 }
 
 /*bagian bagian meet our team*/
-.message-wrapper {
-  border-bottom: 1px solid #eee;
+.profil-wrapper {
   padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
   text-align: center;
 }
 
-.heading h3 {
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
   font-weight: normal;
+  font-size: 72px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
+.profils p {
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
   position: relative;
-  top: 7px;
-  box-shadow: none;
+  animation: mymove 5s infinite;
 }
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+.profil {
+  float: left;
+  width: 25%;
+}
+
+.profil li {
+  margin: 15px;
+  display: inline-block;
+}
+
+.profil-icon {
+  position: relative;
+}
+
+.profil-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.facebook {
+position: absolute;
+max-width: 100%;
+width: 15px;  
+height: 25px;
+}
+
+.instagram {
+position: absolute;
+max-width: 100%;
+width: 15px;  
+height: 25px;
+}
+
+.twitter {
+position: absolute;
+max-width: 100%;
+width: 15px;  
+height: 25px;
+}
+
 
 /*bagian footer*/
 footer {
