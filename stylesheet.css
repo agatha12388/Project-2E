@@ -339,16 +339,17 @@ footer {
   line-height:150px;
   border:1px solid white;
   justify-content: space-around;
+  background-color: darkgray;
 }
 
 .footer-logo, ul {
   display:block;
 }
 
-.footer-logo {
-  max-width: 110px;
-  max-height: 70px;
-  padding-top:50px;
+
+.footer-logo img {
+  max-width: 452px;
+  max-height: 130px;
 }
 ul li {
   list-style:none;
@@ -357,6 +358,9 @@ ul li {
   width:49%;
   border:1px solid white;
   float:left;
+  font: size 30px;
+  color:black;
+  font-weight: bold;
 }
 
 ul {
