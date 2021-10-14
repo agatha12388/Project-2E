@@ -159,10 +159,10 @@ header {
 }
 
 .line{
-    border-bottom: 4px solid rgb(34 66 78);
-    width: 10%;
-    margin: 0 auto;
-    padding-bottom: 10px;
+  border-bottom: 4px solid rgb(34 66 78);
+  width: 10%;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 .feature {
@@ -187,13 +187,25 @@ header {
   font-size: 30px;
 }
 
+.creative-logo{
+  width: 190px;
+}
+
+.adaptive-logo{
+  width: 220px;
+}
+
+.collaborative-logo{
+  width: 240px;
+}
+
 .txt-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
   color: #000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
