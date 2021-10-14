@@ -339,7 +339,7 @@ footer {
   line-height:150px;
   border:1px solid white;
   justify-content: space-around;
-  background-color: darkgray;
+  background-color:ghostwhite;
 }
 
 .footer-logo, ul {
@@ -348,17 +348,16 @@ footer {
 
 
 .footer-logo img {
-  max-width: 452px;
-  max-height: 130px;
+  max-width: 250px;
+  max-height: 100px;
 }
 ul li {
   list-style:none;
   padding:0;
   margin:0;
   width:49%;
-  border:1px solid white;
   float:left;
-  font: size 30px;
+  font-size: 30px;
   color:black;
   font-weight: bold;
 }
@@ -370,12 +369,10 @@ ul {
 
 ul.left {
   width:30%;
-  border:1px solid white;
 }
 
 ul.right {
   width:30%;
-  border:1px solid white;
 }
 
 @media  (max-width: 670px) {
@@ -401,3 +398,4 @@ ul.right {
     float:none;
   }
 }
+
