@@ -30,40 +30,49 @@ a {
 
 /*Bagian header*/
 header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 500px;
+    height: 191px;
+    line-height: 80px;
+    margin-top: 17px;
+    padding-left:  105px;
+  }
+  
+  .header-left {
+    float: left;
+    top: 17px;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+    top: 54px;
+    
+  }
+  
+  .header-right a {
+    text-decoration:none;
+    line-height: 80px;
+    padding: 0 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    display: flex;
+    float: left;
+    transition: all 0.5s;
+  }
+   
+  .header-right a:hover {
+    background-color: rgba(228, 38, 25, 0.3);
+  }
 
 
 /*Bagian bagian welcome to our team*/
