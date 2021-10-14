@@ -375,6 +375,8 @@ ul li {
   margin:0;
   width:49%;
   float:left;
+  color: black;
+  font-size:20px;
 }
 
 ul {
