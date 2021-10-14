@@ -30,7 +30,7 @@ a {
 
 /*Bagian header*/
 header {
-  height: 65px;
+  height: 80px;
   width: 100%;
   background-color: rgba(65, 121, 224, 0.466);
   position :fixed;
