@@ -1,6 +1,13 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+  .profil {
+    width: 50%;
+    margin-bottom: 50px;
+  }
   
+  .heading h2 {
+    font-size: 20px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -12,4 +19,12 @@
   span.menu-icon {
     display: block;
   }
+
+  .profil {
+    width: 100%;
+  } 
+  
+  .menu-icon {
+      display: block;
+    }
 }
