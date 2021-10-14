@@ -335,10 +335,11 @@ height: 25px;
 footer {
   display: flex;
   text-align:center;
-  height:150px;
+  height: 250px;
   line-height:150px;
-  border:1px solid white;
+  border:1px solid grey;
   justify-content: space-around;
+  background-color:navajowhite;
 }
 
 .footer-logo, ul {
@@ -373,7 +374,6 @@ ul li {
   padding:0;
   margin:0;
   width:49%;
-  border:1px solid white;
   float:left;
 }
 
@@ -384,12 +384,10 @@ ul {
 
 ul.left {
   /*width:30%;*/
-  border:1px solid white;
 }
 
 ul.right {
   width:30%;
-  border:1px solid white;
 }
 
 @media  (max-width: 670px) {
