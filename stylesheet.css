@@ -64,7 +64,7 @@ header {
   font-weight: bold;
   color: #bdc3c3;
   /*display: flex;*/
-  float: left;
+  float: right;
   transition: all 0.5s;
   margin-left: 10px;
 }
