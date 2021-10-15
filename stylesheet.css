@@ -342,6 +342,7 @@ footer {
   justify-content: space-around;
   background-color:navajowhite;
   padding-top: 15px;
+  color: grey;
 }
 
 .footer-logo, ul {
@@ -358,17 +359,11 @@ footer {
   width: 80px;
 }
 
-.left a {
-  color: grey;
-
 .right li{
   width: 80px;
 }
 
-.right a {
-  color: grey;
-
-.left{
+.left {
   margin-left: 200px;
 }
 
