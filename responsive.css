@@ -1,5 +1,69 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+
+  /*Header*/
+  .header{
+    height: 80px;
+  }
+
+  .header-right{
+    margin-right: 0px;
+  }
+  .logo{
+    height: 50px;
+    padding-left: 35px;
+  }
+
+  .header-right a{
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  /*Our Features*/
+
+  .feature-wrapper{
+    padding-bottom: 60px;
+  }
+
+  .feature-heading h2{
+    font-size: 65px;
+  }
+
+  .text-heading{
+    font-size: 20px;
+  }
+
+  .btn-feature{
+    margin-top: 30px;
+  }
+
+  .btn-feature a{
+    padding: 0px;
+  }
+
+  .creative-logo{
+    width: 150px;
+  }
+
+  .adaptive-logo{
+    width: 180px;
+  }
+
+  .collaborative-logo{
+    width: 200px;
+  }
+
+  .feature-icon p{
+    font-size: 25px;
+  }
+
+  .feature-explore{
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+
+  /*Profil*/
   .profil {
     width: 50%;
     margin-bottom: 50px;
@@ -27,4 +91,14 @@
   .menu-icon {
       display: block;
     }
+
+  /*Our Feature*/
+  .feature-explore{
+    width: 30%;
+  }
+
+  .feature{
+    width: 100%;
+    padding-bottom: 30px;
+  }
 }

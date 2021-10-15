@@ -38,10 +38,9 @@ header {
 }
 
 .logo {
-  height: 60px;
+  height: 50px;
   line-height: 65px;
   margin-top: 0 px;
-  padding-left:  10px;
 }
 
 .header-left {
@@ -211,9 +210,6 @@ header {
 }
 
 
-
-element.style {
-}
 .feature-explore {
   text-decoration: none;
   margin: 0 auto;
@@ -240,10 +236,14 @@ element.style {
   cursor: pointer;
 }
 
+.btn-feature a:hover{
+  opacity: 1;
+}
+
 .btn-feature:active{
   box-shadow: none;
   position: relative;
-  opacity: 1;
+  opacity: 0.4;
   /*top: 7px;*/
 }
 
@@ -278,7 +278,7 @@ element.style {
 
 @keyframes mymove {
   from {left: 0px;}
-  to {left: 300px;}
+  to {left: 100px;}
 }
 
 .profil {
