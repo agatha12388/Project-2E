@@ -345,7 +345,7 @@ footer {
 }
 
 .footer-logo, ul {
-  display:block;
+  display:inline-block;
 }
 
 .footer-logo img{
@@ -358,12 +358,18 @@ footer {
   width: 80px;
 }
 
+.left a {
+  color: grey;
+
 .right li{
   width: 80px;
 }
 
+.right a {
+  color: grey;
+
 .left{
-  margin-left: 400px;
+  margin-left: 200px;
 }
 
 .right{
@@ -376,9 +382,9 @@ ul li {
   margin:0;
   width:49%;
   float:left;
-  color: black;
   font-size:20px;
 }
+
 
 ul {
   margin:0;
