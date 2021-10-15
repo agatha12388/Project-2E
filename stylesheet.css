@@ -356,11 +356,16 @@ footer {
 
 .left li{
   width: 80px;
-  color: grey;
 }
 
 .right li{
   width: 80px;
+}
+
+.left a {
+  color: grey;
+}
+.right a {
   color: grey;
 }
 
