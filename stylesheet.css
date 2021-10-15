@@ -354,18 +354,13 @@ footer {
   padding: 30px 0px 30px 30px;
 }
 
-.left li{
+.left li, a{
   width: 80px;
-}
-
-.right li{
-  width: 80px;
-}
-
-.left a {
   color: grey;
 }
-.right a {
+
+.right li, a{
+  width: 80px;
   color: grey;
 }
 
@@ -393,7 +388,7 @@ ul {
 }
 
 ul.left {
-  /*width:30%;/*
+  /*width:30%;*/
 }
 
 ul.right {
