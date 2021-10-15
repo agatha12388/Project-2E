@@ -157,14 +157,29 @@
         line-height:25px;
     }
    ul.left, ul.right {
-    width:100%;
+    /*width:100%;*/
     text-align:center;
   }
   
+  .left{
+    margin: 0px 0px;
+  }
+
+  .right{
+    margin: 0px 0px;
+  }
+
+  .footer-logo{
+    display: block;
+  }
+
   ul li {
     width:100%;
     float:none;
   }
+
+  .footer-logo img{
+  padding: 15px 0px 15px 30p
    
 }
 
