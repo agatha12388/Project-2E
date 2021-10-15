@@ -1,3 +1,25 @@
+/*
+STUDI INDEPENDEN KAMPUS MERDEKA X PROGATE
+            PROJECT HTML & CSS
+
+                DIBUAT OLEH:
+           1. ANDREAN YONATHAN
+              LinkedIn & Github: andreanynthn
+
+           2. ANGGRENI AGATHA DAMANIK
+              LinkedIn & Github:
+
+           3. ALFINA NUR KHOLIFA
+              linkedIn & Github:
+
+           4. AMALIA TAMA BR. BATUBARA
+              LinkedIn & Github:
+
+           5. ANLA RIJABANI RAMSUS
+              LinkedIn & Github:
+*/
+
+
 /*General*/
 * {
   box-sizing: border-box;
@@ -53,20 +75,23 @@ header {
   float: right;
   margin-right: -25px;
   top: 54px;
-  
 }
 
 .header-right a {
   text-decoration:none;
-  line-height: 65px;
+  line-height: 80px;
   padding: 10 50px;
   font-size: 24px;
   font-weight: bold;
   color: #bdc3c3;
-  /*display: flex;*/
   float: right;
   transition: all 0.5s;
   margin-left: 10px;
+  text-align: center;
+}
+
+.header-right a{
+  width: 100px;
 }
  
 .header-right a:hover {
@@ -75,12 +100,18 @@ header {
 
 }
 
-
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
 
 /*Bagian bagian welcome to our team*/
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url("bg3.png");
+  background-image: url("img/bg3.png");
   background-size: cover;
   color: rgb(21, 99, 119);
   text-align: center;
@@ -339,8 +370,7 @@ height: 25px;
 footer {
   display: flex;
   text-align:center;
-  height: 150px;
-  line-height:100px;
+  line-height:60px;
   border-top:1px solid grey;
   justify-content: space-around;
   background-color:navajowhite;
@@ -354,7 +384,7 @@ footer {
 .footer-logo img{
   width: 150px;
   height: 100px;
-  padding: 30px 0px 30px 30px;
+  padding: 50px 0px 10px 30px;
 }
 
 .left li, a{

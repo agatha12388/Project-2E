@@ -1,3 +1,24 @@
+/*
+STUDI INDEPENDEN KAMPUS MERDEKA X PROGATE
+            PROJECT HTML & CSS
+
+                DIBUAT OLEH:
+           1. ANDREAN YONATHAN
+              LinkedIn & Github: andreanynthn
+
+           2. ANGGRENI AGATHA DAMANIK
+              LinkedIn & Github:
+
+           3. ALFINA NUR KHOLIFA
+              linkedIn & Github:
+
+           4. AMALIA TAMA BR. BATUBARA
+              LinkedIn & Github:
+
+           5. ANLA RIJABANI RAMSUS
+              LinkedIn & Github:
+*/
+
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
 
@@ -5,8 +26,6 @@
 .header {
    width: 100%;
    height:80px;
-   
-     
  }
 
  .logo {
@@ -14,32 +33,17 @@
 
  }
 
- .header-left {
-  width: 100%;
- }
-
  .header-right {
-  width: 100%;
-
-
-
-
+  margin-right: 25px;
  }
 
- .header-right a {
-  font-size: 18px;
-  float: right;
-  line-height: 20px;
-  padding-left: 10px;
+  .right{
+    margin-right: 0;
+  }
 
- }
-  
- footer {
-   text-align:center;
-   width:100%
-   
-}
-
+  .left{
+    margin-left: 0;
+  }
 
   /*Our Features*/
 
@@ -94,21 +98,25 @@
   .heading h2 {
     font-size: 20px;
   }
+
+
+  /*Footer*/
+  footer {
+  text-align:center;
+  width:100%
+  }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  
+  /*Header*/
   .header {
     width: 100%;
     height:80px;
-    
-      
   }
  
   .logo {
    height: 40px;
- 
   }
  
   .header-left {
@@ -117,13 +125,19 @@
  
   .header-right {
    width: 100%;
+   display: none;
   }
+
+  .menu-icon {
+  display: block;
+  }
+
   
   /*profil*/
   
   .profil {
   width: 100%;
-}
+  }
  
   .header-right a {
    font-size: 12px;
@@ -149,25 +163,22 @@
   }
   
   footer {
-        flex-direction:column;
-        height:auto;
-        line-height:inital;
-        width:100%;
-        text-align:center;
-        line-height:25px;
+    flex-direction:column;
+    height:auto;
+    line-height:inital;
+    width:100%;
+    text-align:center;
+    line-height:25px;
     }
    ul.left, ul.right {
-    /*width:100%;*/
+    /width:100%;/
     text-align:center;
   }
   
-  .left{
+  .left, .right{
     margin: 0px 0px;
   }
 
-  .right{
-    margin: 0px 0px;
-  }
 
   .footer-logo{
     display: block;
@@ -179,10 +190,13 @@
   }
 
   .footer-logo img{
-  padding: 15px 0px 15px 30p
+  padding: 15px 0px 15px 30px;
+  }
    
+  .left li, .right li{
+    padding-bottom: 15px;
+  }
 }
-
 
   
     
