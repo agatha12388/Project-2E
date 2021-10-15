@@ -144,7 +144,11 @@
   }
   
   /*Footer*/
-   footer {
+  .footer img {
+    order:-1;
+  }
+  
+  footer {
         flex-direction:column;
         height:auto;
         line-height:inital;
