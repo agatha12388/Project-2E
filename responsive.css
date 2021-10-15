@@ -2,103 +2,73 @@
 @media all and (max-width: 1000px) {
 
   /*Header*/
-  .header{
-    height: 80px;
-  }
+.header {
+   width: 100%;
+   height:80px;
+   
+     
+ }
 
-  .header-right{
-    margin-right: 0px;
-  }
-  .logo{
-    height: 50px;
-    padding-left: 35px;
-  }
+ .logo {
+  height: 40px;
 
-  .header-right a{
-    font-size: 18px;
-    padding: 0 10px;
-  }
+ }
 
-  /*Our Features*/
+ .header-left {
+  width: 100%;
+ }
 
-  .feature-wrapper{
-    padding-bottom: 60px;
-  }
-
-  .feature-heading h2{
-    font-size: 65px;
-  }
-
-  .text-heading{
-    font-size: 20px;
-  }
-
-  .btn-feature{
-    margin-top: 30px;
-  }
-
-  .btn-feature a{
-    padding: 0px;
-  }
-
-  .creative-logo{
-    width: 150px;
-  }
-
-  .adaptive-logo{
-    width: 180px;
-  }
-
-  .collaborative-logo{
-    width: 200px;
-  }
-
-  .feature-icon p{
-    font-size: 25px;
-  }
-
-  .feature-explore{
-    padding: 5px;
-    margin: 0 auto;
-  }
+ .header-right {
+  width: 100%;
 
 
-  /*Profil*/
-  .profil {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  
-  .heading h2 {
-    font-size: 20px;
-  }
+
+
+ }
+
+ .header-right a {
+  font-size: 18px;
+  float: right;
+  line-height: 20px;
+  padding-left: 10px;
+
+ }
+   
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  
+  .header {
+    width: 100%;
+    height:80px;
+    
+      
+  }
+ 
+  .logo {
+   height: 40px;
+ 
+  }
+ 
+  .header-left {
+   width: 100%;
+  }
+ 
   .header-right {
-    display: none;
+   width: 100%;
+ 
+ 
+ 
+ 
   }
-  
-  span.menu-icon {
-    display: block;
+ 
+  .header-right a {
+   font-size: 12px;
+   float: right;
+   line-height: 20px;
+   padding-left: 10px;
+ 
   }
-
-  .profil {
-    width: 100%;
-  } 
-  
-  .menu-icon {
-      display: block;
-    }
-
-  /*Our Feature*/
-  .feature-explore{
-    width: 30%;
-  }
-
-  .feature{
-    width: 100%;
-    padding-bottom: 30px;
-  }
+   
 }
