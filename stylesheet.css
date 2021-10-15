@@ -30,7 +30,7 @@ a {
 
 /*Bagian header*/
 header {
-  height: 65px;
+  height: 80px;
   width: 100%;
   background-color: rgb(0, 12, 34);
   top: 0;
@@ -38,9 +38,10 @@ header {
 }
 
 .logo {
-  height: 50px;
+  height: 60px;
   line-height: 65px;
   margin-top: 0 px;
+  padding-left:  10px;
 }
 
 .header-left {
@@ -69,7 +70,9 @@ header {
 }
  
 .header-right a:hover {
+  text-decoration: underline;
   background-color: #0045815c;
+
 }
 
 
