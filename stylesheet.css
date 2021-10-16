@@ -35,6 +35,10 @@ a {
   clear: left;
 }
 
+span.fa{
+  display: none;
+}
+
 .fa {
   margin-right: 5px;
   display: none;
