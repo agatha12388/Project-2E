@@ -35,6 +35,10 @@ a {
   clear: left;
 }
 
+.fa {
+  margin-right: 5px;
+}
+
 .container {
   max-width: 1170px;
   padding: 0 15px;
@@ -104,7 +108,6 @@ header {
   padding: 180px 0 100px 0;
   background-image: url("img/bg3.png");
   background-size: cover;
-  color: rgb(21, 99, 119);
   text-align: center;
 }
 
@@ -113,43 +116,7 @@ header {
   font-size: 96px;
   letter-spacing: 2px;
   margin-bottom: 5px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
+  color: rgba(151, 150, 150, 0.8);
 }
 
 
@@ -418,5 +385,3 @@ ul.left {
 ul.right {
   /*width:30%;*/
 }
-
-  
